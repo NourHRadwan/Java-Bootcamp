@@ -49,9 +49,9 @@ public class Basics {
                 break;
         }*/
 /// ============================================================================================
-        /// Question 2:
-        /// Write a Java program that reads a month number and prints which season
-        /// it belongs to (Summer, Spring, Winter, or Autumn).
+/// Question 2:
+/// Write a Java program that reads a month number and prints which season
+/// it belongs to (Summer, Spring, Winter, or Autumn).
         /*switch(month){
         case 12:
         case 1:
@@ -74,7 +74,7 @@ public class Basics {
         System.out.println("Autumn");
         break;
         }*/
- /// ============================================================================================
+        /// ============================================================================================
 
         /// Question 3:
         /// In English, the letters A, E, I, O, and U (both uppercase and lowercase)
@@ -224,16 +224,79 @@ public class Basics {
 
          */
 
+        //Take input of the user
+        /* Scanner input = new Scanner(System.in);
+        System.out.println("Enter a value: ");
+        int value = input.nextInt();
+        if(value % 2 == 0 && value > 4)
+        {
+            System.out.println("Yes");
+        }
+        else
+        {
+            System.out.println("No");
+        }*/
+
+        /// ============================================================================================
+        /*
+        Sorting Three Floating-Point Numbers
+        • Write a program that reads three floating-point numbers and sorts
+                them in ascending order.
+        • Example Input: 2.5, 9, 4
+        • Expected Output: 2.5, 4, 9
+        • Use only conditional statements to implement the sorting logic.
+        */
+
+        /*
+        //Input 3 Int from the user
+        System.out.println("Please Enter 3 numbers");
+        Scanner input = new Scanner(System.in);
+        float a = input.nextFloat();
+        float b = input.nextFloat();
+        float c = input.nextFloat();
+
+        float min, max, mid;
+        // sort them from the min to max
+        if (a <= b && a <= c)
+        {
+            min = a;
+            if (b <= c)
+            {mid = b; max = c;}
+            else {mid = c; max = b;}
+        }
+        else if (c <= a && c<= b)
+        {
+            min = c;
+            if(a <= b)
+            {mid = a; max = b;}
+            else {mid = b; max = a;}
+        }
+        else
+        {
+            min = b;
+            if(a <= c)
+            {mid = a; max = c;}
+            else {max = a; mid = c;}
+        }
+
+
+        System.out.println("Order of Numbers from Max is " + max + " -> " + mid + " -> " + min);
+        */
 
 
 
         /// ============================================================================================
 
+
+
+
+
         /// ============================================================================================
 
-    }
 
     }
+
+}
 
 
 
