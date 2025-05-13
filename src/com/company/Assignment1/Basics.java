@@ -1,5 +1,7 @@
 package com.company.Assignment1;
 
+import com.sun.source.tree.WhileLoopTree;
+
 import java.util.Scanner;
 
 public class Basics {
@@ -287,8 +289,58 @@ public class Basics {
 
         /// ============================================================================================
 
+        /*Write a program that finds the minimum and maximum values of
+        three given numbers using the conditional (ternary) operator.
+        • Example Input: 3, 1, 5
+        • Expected Output: Max = 5, Min = 1
+           */
+
+      /*  System.out.println("Please Enter 3 numbers");
+        Scanner input = new Scanner(System.in);
+        float a = input.nextFloat();
+        float b = input.nextFloat();
+        float c = input.nextFloat();
+
+        Float max = (a > b) ? ((a > c) ? a :c) : ((b > c) ? b :c);
+        Float min = (a < b) ? ((a <c) ? a : c) : ((b < c) ? b : c);
+
+        System.out.println("Max = " + max + ", Min = " + min);*/
 
 
+        /// ============================================================================================
+        //Determine the values of x, y, z, and w
+
+        int x = 3;
+        int y = 2;
+        int z = x++; // Assign z = 3 then increment x = 4
+        int w = ++y; // increment y = 3 then assign w =  3
+
+        //Final result x = 4, z = 3, y = 3, w = 3
+
+        /// ============================================================================================
+    /*    Write a program to calculate the sum of positive integers and the sum of
+            negative integers for 6 integers.
+            • Example Input: 21, -4, 14, -3
+            • Expected Output:
+            Sum of positive integers: 35
+            Sum of negative integers: -7*/
+
+        /*Scanner input = new Scanner(System.in);
+        int value, positiveSum = 0, negativeSum = 0;
+        for(int i = 0; i < 6; i++)
+        {
+            System.out.println("Please Enter the value number "+ (i+1));
+            value = input.nextInt();
+            if(value > 0)
+            {
+                positiveSum += value;
+            }
+            else if (value < 0)
+            {
+                negativeSum += value;
+            }
+        }
+        System.out.println("Sum of positive integers: " + positiveSum + "\nSum of negative integers: " + negativeSum);*/
 
 
         /// ============================================================================================
