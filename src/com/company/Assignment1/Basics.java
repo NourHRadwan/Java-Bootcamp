@@ -310,10 +310,10 @@ public class Basics {
         /// ============================================================================================
         //Determine the values of x, y, z, and w
 
-        int x = 3;
-        int y = 2;
-        int z = x++; // Assign z = 3 then increment x = 4
-        int w = ++y; // increment y = 3 then assign w =  3
+        //int x = 3;
+        //int y = 2;
+        //int z = x++; // Assign z = 3 then increment x = 4
+        //int w = ++y; // increment y = 3 then assign w =  3
 
         //Final result x = 4, z = 3, y = 3, w = 3
 
@@ -342,6 +342,25 @@ public class Basics {
         }
         System.out.println("Sum of positive integers: " + positiveSum + "\nSum of negative integers: " + negativeSum);*/
 
+
+        /// ============================================================================================
+        /*Take three numbers from the user and print the largest one.
+
+        • Example Input:
+            o 1st Number: 25
+            o 2nd Number: 78
+            o 3rd Number: 87
+        • Expected Output: "The greatest number is: 87"*/
+
+
+
+
+         /// ============================================================================================
+
+        /*Write a Java program to print the area of a circle.
+
+        • Test Data: Radius = 7.5
+        • Expected Output: "Area = 176.71458676442586"*/
 
         /// ============================================================================================
 
