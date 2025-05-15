@@ -110,6 +110,73 @@ public class Loops {
 */
 
         //================================================================================================
+
+        /*Q8:
+        Write an application that calculates the product of the odd integers from 1 to 15.
+*/
+
+       /* int result = 1;
+        for(int i = 1; i <= 15; i++)
+        {
+            if(i % 2 != 0)
+            {
+                result *= i;
+            }
+        }
+
+        System.out.println(result);*/
+
         //================================================================================================
+
+/*        Q9:
+        Write a Java program that continuously reads positive numbers from the
+        user until a negative number is entered. The program should then
+        calculate and print the average of all positive numbers entered.
+*/
+
+/*
+        Scanner input = new Scanner(System.in);
+        int number, result = 0;
+
+        while (true) {
+            System.out.println("Enter a positive value: ");
+            number = input.nextInt();
+            if (number > 0) {
+                result += number;
+            } else {
+                break;
+            }
+        }
+        System.out.println(result);
+*/
+
+        //================================================================================================
+
+        /*Q10:
+        Write a Java program that prompts the user to enter an integer, then
+        calculates and prints the sum of its digits.
+        • Example: If the user enters 123, the output should be 6,
+                because 1 + 2 + 3 = 6.*/
+
+
+        //================================================================================================
+        /*Q11: Write a Java program that prompts the user to enter an integer, then prints the
+        number of digits in that integer.*/
+
+
+        //================================================================================================
+
+        /*Q 12: Given an integer, write a program to determine how many times it can be divided
+        by 2 before it becomes less than 1. */
+
+
+        //================================================================================================
+
+        /* Q13: Write a Java program that displays all numbers from 100 to 200, with
+        ten numbers per line, that are divisible by either 5 or 6, but not both.*/
+
+
+        //================================================================================================
+
     }
 }
