@@ -1,6 +1,4 @@
-package com.company.Assignment1;
-
-import com.sun.source.tree.WhileLoopTree;
+package com.company.Assignments.Assignment1;
 
 import java.util.Scanner;
 
