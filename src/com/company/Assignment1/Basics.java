@@ -350,7 +350,7 @@ public class Basics {
             o 2nd Number: 78
             o 3rd Number: 87
         • Expected Output: "The greatest number is: 87"*/
-
+/*
         Scanner input = new Scanner(System.in);
         System.out.println("1st Number: ");
         int a = input.nextInt();
@@ -365,7 +365,7 @@ public class Basics {
             System.out.println("The greatest number is: " + b);
         } else if (c >= a && c >= b) {
             System.out.println("The greatest number is: " + c);
-        }
+        }*/
 
         /// ============================================================================================
 
@@ -374,7 +374,11 @@ public class Basics {
         • Test Data: Radius = 7.5
         • Expected Output: "Area = 176.71458676442586"*/
 
-
+        Scanner input = new Scanner(System.in);
+        System.out.println("Radius: ");
+        double radius = input.nextDouble();
+        double area = Math.PI * radius * radius; // Area = π * r²
+        System.out.println("Area = " + area);
 
         /// ============================================================================================
 
