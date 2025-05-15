@@ -286,7 +286,6 @@ public class Basics {
         */
 
 
-
         /// ============================================================================================
 
         /*Write a program that finds the minimum and maximum values of
@@ -352,15 +351,30 @@ public class Basics {
             o 3rd Number: 87
         • Expected Output: "The greatest number is: 87"*/
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("1st Number: ");
+        int a = input.nextInt();
+        System.out.println("2nd Number: ");
+        int b = input.nextInt();
+        System.out.println("3rd Number: ");
+        int c = input.nextInt();
 
+        if (a >= b && a >= c) {
+            System.out.println("The greatest number is: " + a);
+        } else if (b >= a && b >= c) {
+            System.out.println("The greatest number is: " + b);
+        } else if (c >= a && c >= b) {
+            System.out.println("The greatest number is: " + c);
+        }
 
-
-         /// ============================================================================================
+        /// ============================================================================================
 
         /*Write a Java program to print the area of a circle.
 
         • Test Data: Radius = 7.5
         • Expected Output: "Area = 176.71458676442586"*/
+
+
 
         /// ============================================================================================
 
