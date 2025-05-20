@@ -8,6 +8,7 @@ public class Functions {
         the sum of all its elements.*/
 
 
+
         //===============================================================================================
         /*2 Write a function getNumOfElements that takes an array as a parameter
         and returns the total number of elements in the array.*/
@@ -71,6 +72,8 @@ public class Functions {
         //===============================================================================================
 
     }
+
+
 
 
 }
