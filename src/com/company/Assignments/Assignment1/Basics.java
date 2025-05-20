@@ -9,6 +9,7 @@ public class Basics {
         /*System.out.println("Enter a month number: ");
         Scanner input  = new Scanner(System.in);
         int month = input.nextInt();
+
         switch (month)
         {
             case 1:
@@ -52,28 +53,30 @@ public class Basics {
 /// Question 2:
 /// Write a Java program that reads a month number and prints which season
 /// it belongs to (Summer, Spring, Winter, or Autumn).
-        /*switch(month){
-        case 12:
-        case 1:
-        case 2:
-        System.out.println("Winter");
-        break;
-        case 3:
-        case 4:
-        case 5:
-        System.out.println("Spring");
-        break;
-        case 6:
-        case 7:
-        case 8:
-        System.out.println("Summer");
-        break;
-        case 9:
-        case 10:
-        case 11:
-        System.out.println("Autumn");
-        break;
+
+        /*Scanner input = new Scanner(System.in);
+        System.out.println("Enter a month number (1-12): ");
+        int month = input.nextInt();
+
+        if (month >= 1 && month <= 12) {
+            switch (month) {
+                case 12, 1, 2:
+                    System.out.println("Winter");
+                    break;
+                case 3, 4, 5:
+                    System.out.println("Spring");
+                    break;
+                case 6, 7, 8:
+                    System.out.println("Summer");
+                    break;
+                case 9, 10, 11:
+                    System.out.println("Autumn");
+                    break;
+            }
+        } else {
+            System.out.println("Invalid month number. Please enter a number between 1 and 12.");
         }*/
+
         /// ============================================================================================
 
         /// Question 3:
@@ -83,33 +86,27 @@ public class Basics {
 
 
         //Take input from the user
-        /*Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         String letter;
 
-        while (true){
+        while (true) {
             System.out.println("Enter a letter: ");
             letter = input.next();
             //Check if valid input
-            if(letter.length() != 1 || letter.matches("\\d+") )
-            {
+            if (letter.length() != 1 || letter.matches("\\d+")) {
                 System.out.println("Invalid input,you entered a number or more than one letter");
                 continue;
             }
             char ch = Character.toLowerCase(letter.charAt(0));
-            switch (ch)
-            {
-                    case 'a':
-                    case 'i':
-                    case 'o':
-                    case 'e':
-                    case 'u':
-                        System.out.println("Vowel");
-                        break;
-                    default:
-                        System.out.println("consonants");
+            switch (ch) {
+                case 'u', 'e', 'a', 'i', 'o':
+                    System.out.println("Vowel");
+                    break;
+                default:
+                    System.out.println("consonants");
             }
             break;
-            }*/
+        }*/
         /// ============================================================================================
 
         /*
@@ -119,15 +116,15 @@ public class Basics {
                 or /). Based on the chosen operation, the program should perform and
         display the result of that calculation on the entered numbers.*/
 
-        //Initialize the variables
-        /*Scanner input = new Scanner(System.in);
+/*        //Initialize the variables
+        Scanner input = new Scanner(System.in);
         int a, b;
         String operator;
 
         //Take input from the user
         System.out.println("Enter the first value: ");
         a = input.nextInt();
-        System.out.println("Enter the first value: ");
+        System.out.println("Enter the second value: ");
         b = input.nextInt();
         System.out.println("Enter the Operation symbol (+, -, / , *): ");
         operator = input.next();
@@ -135,23 +132,26 @@ public class Basics {
         char operatorSymbol = operator.charAt(0);
 
         // Calculate the results
-            switch (operatorSymbol)
-            {
-                case '+':
-                    System.out.println(a + "+" + "b" + " = " + (a+b));
-                    break;
-                case '-':
-                    System.out.println(a + "-" + "b" + " = " + (a-b));
-                    break;
-                case '*':
-                    System.out.println(a + "*" + "b" + " = " + (a*b));
-                    break;
-                case '/':
-                    System.out.println(a + "/" + "b" + " = " + (a/b));
-                    break;
-                default:
-                    System.out.println("invalid operator");
-            }*/
+        switch (operatorSymbol) {
+            case '+':
+                System.out.println(a + "+" + "b" + " = " + (a + b));
+                break;
+            case '-':
+                System.out.println(a + "-" + "b" + " = " + (a - b));
+                break;
+            case '*':
+                System.out.println(a + "*" + "b" + " = " + (a * b));
+                break;
+            case '/':
+                if (b == 0) {
+                    System.out.println("Error: Division by zero is not allowed.");
+                } else {
+                    System.out.println(a + "/" + "b" + " = " + (a / b));
+                }
+                break;
+            default:
+                System.out.println("invalid operator");
+        }*/
 
         /// ============================================================================================
         /*   Write a Java program that prompts the user to enter a number and prints
@@ -228,7 +228,7 @@ public class Basics {
         /* Scanner input = new Scanner(System.in);
         System.out.println("Enter a value: ");
         int value = input.nextInt();
-        if(value % 2 == 0 && value > 4)
+        if(value % 2 == 0 && value >= 4)
         {
             System.out.println("Yes");
         }
@@ -372,18 +372,18 @@ public class Basics {
         • Test Data: Radius = 7.5
         • Expected Output: "Area = 176.71458676442586"*/
 
-        Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         System.out.println("Radius: ");
         double radius = input.nextDouble();
         double area = Math.PI * radius * radius; // Area = π * r²
-        System.out.println("Area = " + area);
+        System.out.println("Area = " + area);*/
 
         /// ============================================================================================
 
 
     }
-
 }
+
 
 
 
