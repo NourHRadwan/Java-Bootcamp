@@ -5,5 +5,7 @@ public class Q8 {
           /*8 Write a function binarySearch that performs a binary search on a sorted
         array. (Hint: Look up binary search algorithm)*/
 
+
+
     }
 }
