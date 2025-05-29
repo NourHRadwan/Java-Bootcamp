@@ -2,7 +2,7 @@ package com.company.Assignments.Assignment3;
 
 import java.util.UUID;
 //universal unique Identifier
-// to generate unique account numbers when defining a BankAccount
+//to generate unique account numbers when defining a BankAccount
 
 public class BankAccount {
 
@@ -36,7 +36,7 @@ public class BankAccount {
     }
 
     //the accountId is generated only once during object creation and
-    // cannot be modified afterward. This maintains the integrity and uniqueness of the account IDs.
+    //cannot be modified afterward. This maintains the integrity and uniqueness of the account IDs.
 
     public boolean withdraw(double amount) {
         if (amount > 0 || this.balance > amount) {
@@ -82,9 +82,7 @@ public class BankAccount {
             System.out.println("\n\nAccount after deposit\n" + account.getBalance());
         }
 
-
     }
-
 }
 
 
