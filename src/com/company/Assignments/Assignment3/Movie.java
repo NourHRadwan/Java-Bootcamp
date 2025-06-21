@@ -7,6 +7,7 @@ public class Movie {
     private String studio; //representing the studio that made the movie
     private String rating; //representing the rating of the movie
 
+
     // a) Constructor
     public Movie(String title, String studio, String rating) {
         this.title = title;
@@ -37,7 +38,6 @@ public class Movie {
                 pgIndex++;
             }
         }
-
         return pgMovies;
     }
 
