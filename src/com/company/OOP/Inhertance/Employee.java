@@ -6,15 +6,14 @@ public class Employee {
     private String name;
     private double salary;
 
-    Employee(int id, String name, double salary)
-    {
+    Employee(int id, String name, double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
     }
 
-    Employee()
-    {}
+    Employee() {
+    }
 
     public double getSalary() {
         return salary;
@@ -40,13 +39,14 @@ public class Employee {
         this.name = name;
     }
 
-    public double calculateSalary()
-    {
+    public double calculateSalary() {
         return salary;
     }
+
     public void view() {  // Now a method in the Employee class
         System.out.println("ID: " + getId());
         System.out.println("Name: " + getName());
-        System.out.println("Salary: " + getSalary());
+        System.out.println("Salary: " + calculateSalary());
     }
+
 }

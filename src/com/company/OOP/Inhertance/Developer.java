@@ -26,6 +26,8 @@ public class Developer extends Employee{
         System.out.println("---------------------------------");
     }
 
-
-
+    @Override
+    public double calculateSalary() {
+        return super.getSalary() + (super.getSalary() * 0.10);
+    }
 }
