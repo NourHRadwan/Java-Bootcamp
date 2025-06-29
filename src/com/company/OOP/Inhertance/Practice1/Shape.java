@@ -29,13 +29,9 @@ abstract class Shape {
         this.width = width;
     }
 
-    public double getArea() {
-        return 0;
-    }
+    abstract public double CalculateArea();
 
-    public void draw() {
-        System.out.println("Invalid Shape");
-    }
+    abstract public void draw();
 
 
 }
